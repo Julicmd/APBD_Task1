@@ -6,12 +6,15 @@ public class Program{
 
         List<int> list = new List<int> { 1, 2, 3, 4, 5, 6, 7};
         int sum = 0;
-
+        
         foreach(int i in list)
         {
-            sum += i;
+            if (i % 2 == 0)
+            {
+                sum += i;
+            }
         }
-        Console.WriteLine("Sum of numbers: "+sum);
+        Console.WriteLine("Sum of even numbers: "+sum);
 
     }
 }
