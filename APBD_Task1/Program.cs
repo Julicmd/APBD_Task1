@@ -17,5 +17,10 @@ public class Program{
         Console.WriteLine("Sum of even numbers: "+sum);
 
     }
+
+    public int CalculateAvg(List<int> num)
+    {
+        
+    }
 }
 
