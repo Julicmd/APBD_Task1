@@ -15,23 +15,26 @@ public class Program{
             }
         }
         Console.WriteLine("Sum of even numbers: "+sum);
-
-    }
-
-    public int CalculateAvg(List<int> num)
-    {
-        int sum = 0;
-        int count = 0;
-        int avg = 0;
-        foreach (int  i in num )
-        {
-            sum += i;
-            count++;
-            
-        }
-        avg = sum / count;
-        return avg;
+        
+        int avg = CalculateAvg(list);
+        Console.WriteLine("Average of even numbers: "+avg);
         
     }
+public static int CalculateAvg(List<int> num)
+            {
+                int sum = 0;
+                int count = 0;
+                int avg = 0;
+                foreach (int  i in num )
+                {
+                    sum += i;
+                    count++;
+                    
+                }
+                avg = sum / count;
+                return avg;
+                
+            }
+    
 }
 
