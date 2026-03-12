@@ -20,6 +20,17 @@ public class Program{
 
     public int CalculateAvg(List<int> num)
     {
+        int sum = 0;
+        int count = 0;
+        int avg = 0;
+        foreach (int  i in num )
+        {
+            sum += i;
+            count++;
+            
+        }
+        avg = sum / count;
+        return avg;
         
     }
 }
