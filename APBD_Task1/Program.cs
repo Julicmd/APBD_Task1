@@ -4,7 +4,7 @@ public class Program{
     {
         Console.WriteLine("Hello, World!");
 
-        List<int> list = new List<int> { 1, 2, 3, 4, 5, 6, 7};
+        List<int> list = new List<int> { 1, 2, 47, 3, 4, 30, 5, 6, 7, 8, 9, 10};
         int sum = 0;
         int odd = 0;
 
