@@ -21,7 +21,7 @@ public class Program{
             }
             else
             {
-                odd += i+2;
+                odd += i;
             }
             
         }
