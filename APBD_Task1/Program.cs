@@ -21,7 +21,7 @@ public class Program{
             }
             else
             {
-                odd += i;
+                odd += i+2;
             }
             
         }
@@ -29,6 +29,8 @@ public class Program{
         
         int avg = CalculateAvg(list);
         Console.WriteLine("Average of even numbers: "+avg);
+        
+        
         
     }
 public static int CalculateAvg(List<int> num)
