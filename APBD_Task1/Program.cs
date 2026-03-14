@@ -60,6 +60,12 @@ public static int CalculateAvg(List<int> num)
                 }
                 return max;
             }
+
+            public static int CalculateMin(List<int> values)
+            {
+              
+                
+            }
     
 }
 
