@@ -46,6 +46,20 @@ public static int CalculateAvg(List<int> num)
                 return avg;
                 
             }
+
+            public static int CalculateMax(List<int> values)
+            {
+                int max = 0;
+                foreach (int i in values)
+                {
+                    if (max > i)
+                    {
+                        max = i;
+                    }
+                    
+                }
+                return max;
+            }
     
 }
 
