@@ -63,8 +63,17 @@ public static int CalculateAvg(List<int> num)
 
             public static int CalculateMin(List<int> values)
             {
-              
-                
+
+                int min = int.MaxValue;
+
+                foreach (int i in values)
+                {
+                    if (min > i)
+                    {
+                        min = i;
+                    }
+                }
+                return min;
             }
     
 }
