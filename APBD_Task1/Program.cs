@@ -54,7 +54,7 @@ public static int CalculateAvg(List<int> num)
                 int max = 0;
                 foreach (int i in values)
                 {
-                    if (max > i)
+                    if (max < i)
                     {
                         max = i;
                     }
